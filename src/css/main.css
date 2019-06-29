@@ -1,6 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway', sans-serif; }
+
 body {
-  background-color: blue;
+  background-color: #f3f3f3;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+
+.arch-container {
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid #CCCCCC;
+  background-color: #fff;
+  padding: 5px; }
+
+.arch-container header {
+  background-color: #f7f7f7;
+  height: 50px;
+  line-height: 50px;
+  padding: 10px;
+  margin-bottom: 20px; }
+
+.arch-container form p {
+  padding: 10px; }
+
+.arch-container form [type=submit] {
+  width: 90px;
+  height: 30px;
+  background: #333333;
+  color: white; }
+
+.arch-list-link {
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid #CCCCCC;
+  background-color: #fff;
+  padding: 5px; }
+
+.arch-list-link h2 {
+  background-color: #f7f7f7;
+  height: 50px;
+  line-height: 50px;
+  padding: 10px;
+  margin-bottom: 20px; }
+
+.arch-list-link ul {
+  list-style: none;
+  padding: 10px; }
+
+.arch-list-link ul li {
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.arch-list-link ul li button {
+  width: 30px;
+  height: 30px;
+  background: #333333;
+  color: white; }
